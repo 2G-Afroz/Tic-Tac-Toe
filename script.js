@@ -34,12 +34,9 @@ function startGame() {
 }
 
 function turnClick(square) {
-    if (!won) {
+    if (!won && board[square.target.id] == '') {
         let winner;
-        if (board[square.target.id] == '') {
-            turn(square.target.id, huPlayer);
-            human = !human;
-        }
+        turn(square.target.id, huPlayer);
 
         winner = checkWin();
         if (winner.player != '')
