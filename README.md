@@ -1,2 +1,2 @@
-# TikTakToe
-Tik Tak Toe game with unbeatable AI
+# Tic-Tac-Toe
+Tic Tac Toe game with unbeatable AI
